@@ -9,7 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 date='Nov_18_25_2014'
-m26=np.load('m_psFVCOM20141118_7days.npy')#'m_ps2011-2010_630.npy'
+m26=np.load('m_psFVCOM20141118_7days.npy')#'m_ps2011-2010_630.npy'  NEED TO KNOW HOW THIS FILE WAS CREATED
 p=m26.tolist()
 FN='necscoast_worldvec.dat'
 CL=np.genfromtxt(FN,names=['lon','lat'])
